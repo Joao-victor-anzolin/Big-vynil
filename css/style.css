@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Nunito;
+    src: url(/fonts/Nunito/static/Nunito-Regular.ttf);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: ghostwhite;
+    font-family: Nunito;
+    color: black;
+    font-size: 18px;
+}
+
+#head_top{
+    display: flex;
+    padding: 20px;
+}
+
+#nav_org{
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    text-decoration:none ;
+    color: black;
+    padding: 15px;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+
+input{
+    padding-top: 20px;
+    border-radius: 50px;
+    border: black;
+    height: 20px;
+    width: 600px;
+    background-color: lightgray;
+    padding: 10px;
+}
